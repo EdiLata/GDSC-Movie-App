@@ -1,0 +1,19 @@
+img {
+  height: 400px;
+  width: auto;
+}
+
+.title {
+  font-size: 46px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 24px
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}

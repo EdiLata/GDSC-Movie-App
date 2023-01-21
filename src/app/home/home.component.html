@@ -1,5 +1,5 @@
-<div class="margin-bottom" *ngFor="let movie of movies">
-  <div class="title">{{movie.title}}</div>
-  <div>{{movie.description}}</div>
-  <img src="{{movie.imageUrl}}">
+<div class="row">
+  <div class="margin-bottom" *ngFor="let movie of movies">
+    <app-card (click)="redirectToMovie(movie.id)" [title]="movie.title" [imageUrl]="movie.imageUrl"></app-card>
+  </div>
 </div>

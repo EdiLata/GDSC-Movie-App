@@ -28,5 +28,61 @@ export const mockMovies: IMovie[] = [
     imageUrl: '../../assets/images/superman.jpg',
     description: 'fdsgdggsffh',
     rating: 5
+  },
+  {
+    id: '5',
+    title: 'SuperMan',
+    imageUrl: '../../assets/images/superman.jpg',
+    description: 'fdsgdggsffh',
+    rating: 5
+  },
+  {
+    id: '6',
+    title: 'SuperMan',
+    imageUrl: '../../assets/images/superman.jpg',
+    description: 'fdsgdggsffh',
+    rating: 5
+  },
+  {
+    id: '7',
+    title: 'SuperMan',
+    imageUrl: '../../assets/images/superman.jpg',
+    description: 'fdsgdggsffh',
+    rating: 5
+  },
+  {
+    id: '8',
+    title: 'SuperMan',
+    imageUrl: '../../assets/images/superman.jpg',
+    description: 'fdsgdggsffh',
+    rating: 5
+  },
+  {
+    id: '9',
+    title: 'SuperMan',
+    imageUrl: '../../assets/images/superman.jpg',
+    description: 'fdsgdggsffh',
+    rating: 5
+  },
+  {
+    id: '10',
+    title: 'SuperMan',
+    imageUrl: '../../assets/images/superman.jpg',
+    description: 'fdsgdggsffh',
+    rating: 5
+  },
+  {
+    id: '11',
+    title: 'SuperMan',
+    imageUrl: '../../assets/images/superman.jpg',
+    description: 'fdsgdggsffh',
+    rating: 5
+  },
+  {
+    id: '12',
+    title: 'SuperMan',
+    imageUrl: '../../assets/images/superman.jpg',
+    description: 'fdsgdggsffh',
+    rating: 5
   }
 ]

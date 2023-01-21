@@ -1,12 +1,10 @@
-img {
-  height: 200px;
-  width: auto;
-}
-
 .margin-bottom {
   margin-bottom: 24px;
 }
 
-.title {
-  font-size: 32px;
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 36px;
 }

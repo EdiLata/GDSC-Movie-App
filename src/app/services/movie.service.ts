@@ -12,4 +12,14 @@ export class MovieService {
   getMovies(): IMovie[] {
     return mockMovies;
   }
+
+  getMovieByID(ID: string): IMovie {
+    let searchedMovie: any = [];
+    mockMovies.forEach((movie: IMovie) => {
+      if(movie.id === ID) {
+        searchedMovie = movie;
+      }
+    });
+    return searchedMovie;
+  }
 }
