@@ -9,6 +9,7 @@ import { Input } from '@angular/core'
 export class CardComponent implements OnInit {
   @Input() title: string = '';
   @Input() imageUrl: string = '';
+  @Input() category: string = '';
 
   constructor() { }
 

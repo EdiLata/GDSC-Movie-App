@@ -1,5 +1,9 @@
+<div class="font-big margin-bottom center">Movies</div>
+<app-filter class="center margin-bottom" (selectedFilter)="filterMovies($event)" [categories]="categoryNames"
+            [default]="'ALL MOVIES'"></app-filter>
 <div class="row">
-  <div class="margin-bottom" *ngFor="let movie of movies">
-    <app-card (click)="redirectToMovie(movie.id)" [title]="movie.title" [imageUrl]="movie.imageUrl"></app-card>
+  <div *ngFor="let movie of filteredMovies">
+    <app-card (click)="redirectToMovie(movie.id)" [category]="movie.category" [title]="movie.title"
+              [imageUrl]="movie.imageUrl"></app-card>
   </div>
 </div>

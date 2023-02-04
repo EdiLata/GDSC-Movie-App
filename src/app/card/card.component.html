@@ -1,4 +1,7 @@
 <div class="padding-24 bg-color-red">
   <img src="{{imageUrl}}">
-  <div class="title">{{title}}</div>
+  <div class="bold">{{title}}</div>
+  <app-chip *ngIf="category === 'Action'" [textColor]="'red'" [text]="category"></app-chip>
+  <app-chip *ngIf="category === 'Horror'" [textColor]="'black'" [text]="category"></app-chip>
+  <app-chip *ngIf="category === 'Comedy'" [textColor]="'blue'" [text]="category"></app-chip>
 </div>

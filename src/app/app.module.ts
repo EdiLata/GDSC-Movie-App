@@ -5,14 +5,20 @@ import {AppComponent} from './app.component';
 import {HomeComponent} from './home/home.component';
 import {CardComponent} from './card/card.component';
 import {AppRoutingModule} from "./app-routing.module";
-import { DetailsComponent } from './details/details.component';
+import {DetailsComponent} from './details/details.component';
+import {SafePipe} from './details/safe.pipe';
+import { FilterComponent } from './filter/filter.component';
+import { ChipComponent } from './chip/chip.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     CardComponent,
-    DetailsComponent
+    DetailsComponent,
+    SafePipe,
+    FilterComponent,
+    ChipComponent
   ],
   imports: [
     BrowserModule,

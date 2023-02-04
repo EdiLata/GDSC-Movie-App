@@ -1,5 +1,6 @@
 .padding-24 {
   padding: 24px;
+  border-radius: 12px;
 }
 
 .margin-24 {
@@ -14,8 +15,4 @@ img {
   height: 200px;
   width: 150px;
   object-fit: cover;
-}
-
-.title {
-  font-size: 16px;
 }

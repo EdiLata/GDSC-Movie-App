@@ -1,0 +1,11 @@
+.chip {
+  border-radius: 24px;
+  margin-top: 6px;
+  padding: 4px 12px;
+  color: var(--color);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.84)), var(--color);
+}
+
+.chip-container {
+  display: flex;
+}

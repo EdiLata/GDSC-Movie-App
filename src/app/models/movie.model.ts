@@ -4,5 +4,6 @@ export interface IMovie {
   imageUrl: string,
   rating: number,
   description: string,
-  trailer?: string
+  trailer?: string,
+  category: string
 }

@@ -1,19 +1,28 @@
 img {
-  height: 400px;
+  height: 700px;
   width: auto;
 }
 
-.title {
-  font-size: 46px;
-}
+.item1 { grid-area: left; }
+.item2 { grid-area: right; }
 
-.row {
-  display: flex;
-  flex-direction: row;
-  gap: 24px
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'left right right';
+  gap: 24px;
 }
 
 .column {
   display: flex;
   flex-direction: column;
+}
+
+iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.margin-top {
+  margin-top: 52px;
 }

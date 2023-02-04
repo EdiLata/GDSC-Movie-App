@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
 /* You can add global styles to this file, and also import other style files */
 /***
@@ -90,5 +90,17 @@ body {
 }
 
 * {
-  font-family: 'Rubik Gemstones', cursive;
+  font-family: 'Itim', cursive;
+}
+
+.font-big {
+  font-size: 52px;
+}
+
+.font-medium {
+  font-size: 32px;
+}
+
+.bold {
+  font-weight: bold;
 }
